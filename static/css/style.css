@@ -1,6 +1,19 @@
+.show:hover+.hide {
+    display: block;
+    color: blue;
+}
+
+.hide {
+    display: none;
+}
+
 h1 {
     border: 2px #eee solid;
     color: brown;
     text-align: center;
     padding: 10px;
+}
+
+.resize {
+    height: 65px;
 }
